@@ -1,0 +1,49 @@
+.NavBar {
+    width: 100%;
+    height: 60px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 20px 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: #373543;
+}
+
+.NavBar div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.NavBar div h1 {
+    font-size: 23px;
+    margin-right: 40px;
+}
+
+
+.NavBar img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 40px;
+}
+
+.NavBar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.NavBar ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.NavBar .icono {
+    font-size: 20px;
+}

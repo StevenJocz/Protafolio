@@ -1,0 +1,26 @@
+.Footer {
+    width: 100%;
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Footer h1 {
+    font-size: 23px;
+    margin-right: 40px;
+    color: rgb(161, 161, 161);
+}
+
+.Footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.Footer ul li {
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(161, 161, 161);
+}
