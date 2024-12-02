@@ -1,12 +1,8 @@
 
-import React from 'react';
 import './style/index.css';
 
-interface IEmpresasProps {
 
-}
-
-const Empresas: React.FC<IEmpresasProps> = (props) => {
+const Empresas = () => {
     return (
         <div className="Empresas animate__animated animate__fadeInUpBig">
             <div className="Empresas_content">
